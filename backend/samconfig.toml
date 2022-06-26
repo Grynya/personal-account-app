@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "PersonalAccountApp"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-l7lbq5ae18xg"
+s3_prefix = "PersonalAccountApp"
+region = "eu-central-1"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "DomainName=\"\""
+image_repositories = []

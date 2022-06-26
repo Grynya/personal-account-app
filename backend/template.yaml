@@ -1,0 +1,18 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  PersonalAccountFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./PersonalAccountFunction
+      Handler: lambda.handler
+      MemorySize: 1024
+      Runtime: nodejs12.x
+      Timeout: 300
+      Events:
+        ProxyApiGreedy:
+          Type: HttpApi
+          Properties:
+            Path: /{proxy+}
+            Method: ANY

@@ -1,0 +1,117 @@
+.Header {
+    height: 56px;
+    background: #545353;
+}
+.group-1 {
+    position: absolute;
+    width: 197px;
+    height: 37px;
+    left: 2.031%;
+    top: 8px;
+}
+.nav-drop-down{
+    position: absolute;
+    right: 0;
+    left: auto;
+}
+.vector {
+    position: absolute;
+    font-size: 23px;
+    right: 1%;
+    top: 2%
+}
+.text-1 {
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    color: #545353;
+}
+.line-10 {
+    width: 314px;
+    height: 0;
+    border: 1px solid #DEDEDE;
+}
+.menu-buttons{
+    height: 80vh;
+    margin: 20px;
+}
+.menu-btn{
+    width: 209px;
+    border-radius: 5px;
+}
+.menu-btn-save{
+    width: 250px;
+    border-radius: 5px;
+}
+.errors{
+    height: 14px;
+    font-size: 12px;
+    color:red;
+    text-align: center;
+}
+.server-response{
+    height: 14px;
+    font-size: 16px;
+    text-align: center;
+}
+.isAgreed-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    color: #545353;
+}
+.custom-btn{
+    width: 209px;
+}
+.error-popup{
+    background-color: rgb(255, 99, 71, 0.35);
+}
+.success-popup{
+    background-color: rgb(60, 179, 113, 0.35);
+}
+.jumbotron {
+    background-color: #eee;
+    margin-bottom: 30px;
+    padding: 30px 60px;
+}
+.dropdown-clients-status{
+    overflow-x:auto
+}
+.fa-clone, .fa-pen-square, .fa-user-plus,
+.fa-trash, .fa-floppy-disk, .fa-window-restore{
+    font-size: 25px;
+    padding: 1px;
+}
+.fa-floppy-disk, .fa-user-plus{
+    padding-right: 8px;
+}
+.fa-clone{
+    padding-left: 8px;
+}
+.fa-clone:hover, .fa-pen-square:hover, .fa-trash:hover,
+.fa-window-restore:hover{
+    color: #ffca2b;
+}
+.fa-trash:hover{
+    color: red;
+}
+.clients-table{
+    display: block;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.to-center{
+    text-align: center;
+}
+.to-right{
+    position: absolute;
+    margin: 0;
+}
+.payments-table{
+    border-spacing: 1px
+}
