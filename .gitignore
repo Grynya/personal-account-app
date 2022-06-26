@@ -1,0 +1,10 @@
+# package directories
+backend/node_modules
+frontend/node_modules
+# Serverless directories
+.idea
+backend/.aws-sam
+# package-lock.json
+backend/PersonalAccountFunction/config/config.js
+backend/PersonalAccountFunction/config/ses-email-sender.js
+frontend/constants.js
